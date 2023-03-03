@@ -1,4 +1,65 @@
-Not implemented yet! 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ol>
+            <li class="crumb"><a href="./home.html">Home</a></li>
+            <li class="crumb"><a href="./profile.html">Profile</a></li>
+            <li class="crumb"><a href="./about.html">About</a></li>
+        </ol>
+    </nav>
+
+    <content class="profile-body">
+        <h1>Profile for: Laura Wu</h1>
+
+        <fieldset>
+            Interests:
+            <ul>
+                <li>Dogs. They're the absolute best!</li>
+                <li>Hiking. The Y is currently my favorite.</li>
+            </ul><br>
+
+            Skills:
+            <ul>
+                <li>Baking</li>
+                <li>Sleeping</li>
+                <li>Eating</li>
+            </ul><br>
+
+            Career Goals:
+            <ul>
+                <li>Work with excitment each day.</li>
+                <li>Love the work I do.</li>
+                <li>Support the life my partner and I dream of.</li>
+            </ul>
+        </fieldset>
+
+        <form>
+            <h4 class="skill-question">Which skill do you relate to most?</h4>
+            <input type="radio" id="baking" class="best-skill" name="skill">
+            <label for="baking">Baking</label>
+            <br>
+            <input type="radio" id="sleeping" class="best-skill" name="skill">
+            <label for="sleeping">Sleeping</label>
+            <br>
+            <input type="radio" id="eating" class="best-skill" name="skill">
+            <label for="eating">Eating</label>
+        </form>
+    </content>
+
+    <br>
+    <h4 class="find-out-more">Find out more about me:</h4>
+    <button id="color" class="about-me-buttons">My Favorite Color</button>
+    <button id="place" class="about-me-buttons">My Favorite Place</button>
+    <button id="ritual" class="about-me-buttons">My Favorite Ritual</button>
+
+    <script src="profile.js"></script>
+</body>
+</html>
 
 <br>
 <br>

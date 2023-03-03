@@ -34,5 +34,53 @@ input {
 }
 
 img {
-	max-width: 300px;
+	max-width: 200px;
+}
+
+.checkbox {
+	float: left;
+	clear: none;
+	margin: 2px 1px o 2px;
+  }
+
+.skill-question {
+	margin: 0;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+.best-skill {
+	float: left;
+	clear: none;
+	margin: 2px 1px o 2px;
+  }
+
+.profile-body {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+fieldset {
+	border: solid 1px black;
+	padding: 30px;
+	left: 40px;
+}
+
+.find-out-more {
+	margin: 0;
+	margin-bottom: 5px;
+	margin-top: 8px;
+}
+
+.about-me-buttons {
+	display: block;
+	text-align: center;
+	width: 200px;
+	height: 30px;
+	background-color: rgba(255, 255, 0, 0.180);
+	size: 20px;
+	margin-top: 5px;
+	cursor: pointer;
+	border-radius: 30px;
 }
