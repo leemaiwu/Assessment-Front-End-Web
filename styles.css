@@ -83,4 +83,120 @@ fieldset {
 	margin-top: 5px;
 	cursor: pointer;
 	border-radius: 30px;
+	box-shadow: 3px 3px 3px rgb(147, 147, 147);
+}
+
+:hover.about-me-buttons {
+	background-color: rgba(216, 197, 53, 0.577);
+	color: rgb(24, 24, 24);
+	transition: .30s;
+	box-shadow: 3px 3px 3px rgb(87, 87, 87);
+}
+
+.neighborhoodParagraph {
+	font-weight: 200;
+	font-size: 17px;
+}
+
+a.paragraph-link {
+	color: black;
+}
+
+a:hover.paragraph-link {
+	color: rgb(199, 199, 199);
+	transition: .30s;
+}
+
+a.restaurants-buttons {
+	color: rgb(78, 78, 78);
+	text-decoration: none;
+}
+
+a:hover.restaurants-buttons {
+	color: rgb(0, 0, 0);
+	transition: .25s;
+	font-size: 18px;
+}
+
+.best-res-header{
+	font: "Sans", sans-serif;
+	color: rgb(0, 0, 0);
+	height: 20px
+
+}
+
+.best-res-section {
+	display: table;
+	border: solid 1px rgb(185, 185, 185);
+	border-radius: 10px;
+	margin: auto;
+	align-items: center;
+	color: rgb(102, 79, 79);
+	padding: 20px;
+	top: -10px
+}
+
+
+a.dessert-buttons {
+	color: rgb(78, 78, 78);
+	text-decoration: none;
+}
+
+a:hover.dessert-buttons {
+	color: rgb(0, 0, 0);
+	transition: .25s;
+	font-size: 18px;
+}
+
+.best-dess-header{
+	font: "Sans", sans-serif;
+	color: rgb(0, 0, 0);
+	height: 20px
+
+}
+
+.best-dess-section {
+	display: table;
+	border: solid 1px rgb(185, 185, 185);
+	border-radius: 10px;
+	margin: auto;
+	align-items: center;
+	color: rgb(0, 0, 0);
+	padding: 20px;
+	top: -10px
+}
+
+.random-btn {
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	cursor: pointer;
+	width: 80px;
+	height: 35px;
+	box-shadow: 3px 3px 10px grey;
+	margin-left: 10px;
+}
+
+:hover.random-btn {
+	background-color: rgba(255, 255, 255, 0.395);
+	color: rgb(68, 67, 67);
+	transition: .30s;
+	box-shadow: 3px 3px 10px rgb(62, 62, 62);
+}
+
+.generated {
+	display: inline-block;
+	vertical-align: center;
+	border-bottom: none;
+	background-color: rgba(255, 255, 255, 0.395);
+	width: 150px;
+}
+
+.generate-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-weight: 200;
+	font-size: 20px;
 }
